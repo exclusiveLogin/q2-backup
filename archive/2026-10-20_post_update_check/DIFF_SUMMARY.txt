@@ -1,0 +1,3 @@
+﻿SOC: 01.01.03.01 (was 01.01.02.04)
+MCU/THR/BOX: unchanged
+Compared: backups/2026-10-20_SOC-01.01.02.04 vs post_update_check

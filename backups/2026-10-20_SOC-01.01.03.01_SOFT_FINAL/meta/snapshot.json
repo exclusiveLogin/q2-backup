@@ -1,0 +1,114 @@
+﻿{
+    "created_at_local":  "2026-10-20 19:51:46",
+    "printer_ip":  "192.168.31.75",
+    "label":  "SOFT_FINAL — актуальное состояние после soft-патчей",
+    "soc":  "01.01.03.01",
+    "mcu":  "02.01.01.09",
+    "thr":  "02.02.01.08",
+    "box":  "KLP_MCU_MKS_V2_1.1.3",
+    "patches":  [
+                    "MOVE_TO_TRASH soft F8000/500",
+                    "PRINT_START no extra CUT, soft prep",
+                    "PAUSE park F4000, hold 72h",
+                    "idle_timeout 120s M84 only (heaters kept)",
+                    "box heater_fan threshold 40C",
+                    "SAVE_CONFIG left stock (recalibrate on first print)"
+                ],
+    "files":  [
+                  {
+                      "path":  ".moonraker.conf.bkp",
+                      "size":  501,
+                      "modified":  "2026-10-20 18:02:54"
+                  },
+                  {
+                      "path":  "box.cfg",
+                      "size":  2321,
+                      "modified":  "2026-10-20 19:34:32"
+                  },
+                  {
+                      "path":  "crowsnest.conf",
+                      "size":  2504,
+                      "modified":  "2026-10-20 18:03:05"
+                  },
+                  {
+                      "path":  "drying.conf",
+                      "size":  706,
+                      "modified":  "2026-08-17 12:39:43"
+                  },
+                  {
+                      "path":  "fluidd.cfg",
+                      "size":  15743,
+                      "modified":  "2024-01-08 09:03:03"
+                  },
+                  {
+                      "path":  "KAMP/Adaptive_Meshing.cfg",
+                      "size":  13275,
+                      "modified":  "2024-09-02 13:10:14"
+                  },
+                  {
+                      "path":  "KAMP/KAMP_Settings.cfg",
+                      "size":  3043,
+                      "modified":  "2024-09-03 10:03:08"
+                  },
+                  {
+                      "path":  "KAMP/Line_Purge.cfg",
+                      "size":  7994,
+                      "modified":  "2024-09-02 13:10:14"
+                  },
+                  {
+                      "path":  "KAMP/Smart_Park.cfg",
+                      "size":  3955,
+                      "modified":  "2024-09-02 13:10:14"
+                  },
+                  {
+                      "path":  "KAMP/Voron_Purge.cfg",
+                      "size":  6848,
+                      "modified":  "2024-09-02 13:10:14"
+                  },
+                  {
+                      "path":  "klipper-macros-qd/gcode_macro.cfg",
+                      "size":  35076,
+                      "modified":  "2026-10-20 18:31:11"
+                  },
+                  {
+                      "path":  "klipper-macros-qd/KAMP_Settings.cfg",
+                      "size":  17041,
+                      "modified":  "2026-08-17 12:39:43"
+                  },
+                  {
+                      "path":  "MCU_ID.cfg",
+                      "size":  117,
+                      "modified":  "2026-06-26 00:25:38"
+                  },
+                  {
+                      "path":  "moonraker.conf",
+                      "size":  531,
+                      "modified":  "2026-08-17 12:39:43"
+                  },
+                  {
+                      "path":  "officiall_filas_list.cfg",
+                      "size":  12738,
+                      "modified":  "2026-08-17 12:39:43"
+                  },
+                  {
+                      "path":  "printer.cfg",
+                      "size":  13551,
+                      "modified":  "2026-10-20 19:24:14"
+                  },
+                  {
+                      "path":  "saved_variables.cfg",
+                      "size":  2286,
+                      "modified":  "2026-10-20 19:38:48"
+                  },
+                  {
+                      "path":  "saved_variables.cfg.bak",
+                      "size":  1308,
+                      "modified":  "2026-08-17 12:39:43"
+                  },
+                  {
+                      "path":  "timelapse.cfg",
+                      "size":  22909,
+                      "modified":  "2026-08-17 12:39:43"
+                  }
+              ]
+}

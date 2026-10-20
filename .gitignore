@@ -1,0 +1,10 @@
+# Прошивка SOC слишком большая для GitHub (>100MB) — только манифест и мелкие .bin
+firmware/**/*.zip
+firmware/**/QD_Q2_SOC_*
+firmware/**/extracted/QD_Q2_SOC_*
+
+# мусор
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store

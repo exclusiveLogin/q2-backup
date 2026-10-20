@@ -1,0 +1,12 @@
+﻿{
+    "result":  {
+                   "agents":  [
+                                  {
+                                      "name":  "QD_Q2",
+                                      "version":  "01.01.02.04",
+                                      "type":  "agent",
+                                      "url":  "local"
+                                  }
+                              ]
+               }
+}
