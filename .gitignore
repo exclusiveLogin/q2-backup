@@ -1,7 +1,8 @@
-# Прошивка SOC слишком большая для GitHub (>100MB) — только манифест и мелкие .bin
+# Тяжёлые SOC/zip (>100MB) — GitHub не принимает без LFS
 firmware/**/*.zip
 firmware/**/QD_Q2_SOC_*
 firmware/**/extracted/QD_Q2_SOC_*
+firmware/downloads/
 
 # мусор
 *.tmp

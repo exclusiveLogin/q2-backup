@@ -12,7 +12,15 @@ IP: `192.168.31.75`
 
 ## Прошивка
 
-`firmware/QD_Q2_01.01.02.04/` — пакет (на принтере сейчас уже 01.01.03.01).
+Источник релизов: https://github.com/kokoc26/qidi-q2-fw/releases
+
+```powershell
+cd firmware
+.\check-latest.ps1          # последний релиз
+.\download-latest.ps1       # скачать ZIP в firmware/downloads/
+```
+
+Локально ещё лежит `firmware/QD_Q2_01.01.02.04/` (мелкие `.bin`); тяжёлый SOC/zip в git не входят.
 
 ## Soft-патчи в актуальном бекапе
 
