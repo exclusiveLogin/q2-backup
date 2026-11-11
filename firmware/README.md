@@ -3,7 +3,10 @@
 Источник: community-архив [kokoc26/qidi-q2-fw](https://github.com/kokoc26/qidi-q2-fw)  
 ZIP для флеша — в **Releases** (не в git-дереве репы).
 
-Актуальная на принтере (на момент soft-final): **SOC 01.01.03.01**  
+Актуальная на принтере: **SOC 01.01.03.02**  
+→ https://github.com/kokoc26/qidi-q2-fw/releases/tag/V01.01.03.02
+
+Предыдущий soft-final: **SOC 01.01.03.01**  
 → https://github.com/kokoc26/qidi-q2-fw/releases/tag/V01.01.03.01
 
 ## Скрипты
